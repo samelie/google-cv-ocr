@@ -10,7 +10,7 @@ Create a
 
 file and modify the `.env`
 
-  ####Steps
+  #### Steps
 
 1. Upload pdf to bucket `gsutil cp 000ViolaTranscriptPardon.pdf  gs://<bucket_name>/cloud-vision-text/input/000ViolaTranscriptPardon.pdf`
 2. `node index.js 000ViolaTranscriptPardon`
